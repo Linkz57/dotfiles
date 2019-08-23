@@ -198,3 +198,4 @@ parse_git_branch() {
   
   
 }
+
