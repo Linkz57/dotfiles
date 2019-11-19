@@ -1,0 +1,32 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.statusBar.visible": true,
+
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#2E3134"
+    },
+    
+
+    "files.associations": {
+        "**/defautls/**/*": "ansible",
+        "**/tasks/**/*.yml": "ansible",
+        "**/handler/*.yml": "ansible",
+        "**/*_vars/**/*.yml": "ansible",
+        "**/roles/**/*.yml": "ansible",
+        "**/playbooks/**/*.yml": "ansible",
+        "**/*ansible*/**/*.yml": "ansible",
+        "**/vars/**/*.yml": "ansible",
+        "**/inventory/*/*": "ansible",
+        "*.ps1": "powershell"
+    },
+    "python.linting.enabled": false,
+    "window.titleBarStyle": "native",
+	"shellcheck.disableVersionCheck": true,
+    "editor.insertSpaces": false,
+    "editor.minimap.enabled": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.postCommitCommand": "push",
+    "editor.autoClosingQuotes": "never"
+}
