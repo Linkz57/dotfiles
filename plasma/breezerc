@@ -1,0 +1,8 @@
+[Common]
+ShadowStrength=89
+
+[Style]
+MenuOpacity=43
+
+[Windeco]
+DrawTitleBarSeparator=false
