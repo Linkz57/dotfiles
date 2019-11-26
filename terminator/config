@@ -1,0 +1,39 @@
+[global_config]
+  tab_position = bottom
+  title_transmit_bg_color = "#0076c9"
+  title_receive_bg_color = "#003052"
+  title_inactive_fg_color = "#888a85"
+  title_inactive_bg_color = "#000000"
+  enabled_plugins = InactivityWatch, ActivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  suppress_multiple_term_dialog = True
+  always_split_with_profile = True
+[keybindings]
+  split_horiz = <Alt>Return
+  split_vert = <Shift><Alt>Return
+  close_term = <Shift><Alt>q
+  close_window = <Primary><Shift>q
+  move_tab_right = <Shift>Right
+  move_tab_left = <Shift>Left
+  toggle_zoom = <Alt>f
+  scaled_zoom = F11
+  full_screen = <Shift><Alt>f
+[profiles]
+  [[default]]
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Hack 11
+    foreground_color = "#ffffff"
+    scrollback_lines = 15000
+    use_system_font = False
+    autoclean_groups = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
