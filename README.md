@@ -1,12 +1,12 @@
 To be used with [GNU stow](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html)
 
 ## How to Stow from scratch:
-1: Get yourself a folder somewhere. Say: ~/dotfiles
-2: Make a bunch of subfolders named whatever you want, but don't change the name maybe. Say: ~/dotfiles/i3 and ~/dotfiles/bash and ~/dotfiles/ThingsThatMakeYourGoBleh
-3: Find some dotfiles you want to stow up and just make a note of their path. Say: ~/.config/i3/config and ~/.bashrc and ~/.local/kxmlgui5/dolphin/dolphinui.rc
-4: Inside your custom subfolders, recreate the folder structure (mkdir -p is good for this) of the files you'll eventually stow, relative from the parent of the PWD of our future stow commands which in the case of ~/dotfiles is ~ Say: ~/dotfiles/bash/ and ~/dotfiles/ThingsThatMakeYourGoBleh/.local/kxmlgui5/dolphin/
-5: Move (don't copy) the dotfiles from their original locate to their new home at ~/dotfiles/something/subfolders
-6: From ~/dotfiles run <code>stow ThingsThatMakeYourGoBleh</code> and it'll make a symlink for you.
+1. Get yourself a folder somewhere. Say: ~/dotfiles
+2. Make a bunch of subfolders named whatever you want, but don't change the name maybe. Say: ~/dotfiles/i3 and ~/dotfiles/bash and ~/dotfiles/ThingsThatMakeYourGoBleh
+3. Find some dotfiles you want to stow up and just make a note of their path. Say: ~/.config/i3/config and ~/.bashrc and ~/.local/kxmlgui5/dolphin/dolphinui.rc
+4. Inside your custom subfolders, recreate the folder structure (mkdir -p is good for this) of the files you'll eventually stow, relative from the parent of the PWD of our future stow commands which in the case of ~/dotfiles is ~ Say: ~/dotfiles/bash/ and ~/dotfiles/ThingsThatMakeYourGoBleh/.local/kxmlgui5/dolphin/
+5. Move (don't copy) the dotfiles from their original locate to their new home at ~/dotfiles/something/subfolders
+6. From ~/dotfiles run <code>stow ThingsThatMakeYourGoBleh</code> and it'll make a symlink for you.
 
 https://www.youtube.com/watch?v=TG_R7lpR2zU
 
