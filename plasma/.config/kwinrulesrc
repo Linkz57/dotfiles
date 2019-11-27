@@ -8,68 +8,59 @@ wmclass=kwalletd5
 wmclasscomplete=false
 wmclassmatch=1
 
+[10]
+Description=Application settings for thunderbird
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+screen=1
+screenrule=3
+wmclass=mail thunderbird
+wmclasscomplete=true
+wmclassmatch=1
+
 [11]
 Description=Application settings for wine
-clientmachine=localhost
-clientmachinematch=0
 size=1920,1000
 sizerule=2
 wmclass=powerpnt.exe wine
 wmclasscomplete=true
 wmclassmatch=1
 
+[12]
+Description=Application settings for krdc
+clientmachinematch=0
+opacityactive=100
+opacityactiverule=2
+opacityinactive=100
+opacityinactiverule=2
+wmclass=krdc
+wmclasscomplete=false
+wmclassmatch=1
+
 [13]
-Description=Window settings for xfreerdp
-clientmachine=localhost
-clientmachinematch=0
-noborder=true
-noborderrule=2
-title=FreeRDP: 192.168.40.109
-titlematch=1
-types=1
-wmclass=xfreerdp
-wmclasscomplete=false
-wmclassmatch=1
-
-[14]
-Description=Window settings for xfreerdp
-clientmachine=localhost
-clientmachinematch=0
-noborder=true
-noborderrule=2
-title=FreeRDP: 192.168.40.110:7770
-titlematch=1
-types=1
-wmclass=xfreerdp
-wmclasscomplete=false
-wmclassmatch=1
-
-[15]
-Description=Window settings for xfreerdp
-clientmachine=localhost
-clientmachinematch=0
-noborder=true
-noborderrule=2
-title=FreeRDP: 192.168.11.15
-titlematch=1
-types=1
-wmclass=xfreerdp
-wmclasscomplete=false
-wmclassmatch=1
-
-[16]
 Description=Application settings for xfreerdp
 clientmachine=localhost
 clientmachinematch=0
 noborder=true
 noborderrule=2
-screen=1
+screen=0
 screenrule=4
 wmclass=xfreerdp
 wmclasscomplete=false
 wmclassmatch=1
 
-[18]
+[14]
+Description=Application settings for firefox
+clientmachinematch=0
+screen=0
+screenrule=3
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[15]
 Description=Window settings for kontact
 clientmachine=localhost
 clientmachinematch=0
@@ -147,7 +138,6 @@ wmclassmatch=1
 Description=Application settings for tomboy
 above=true
 aboverule=3
-clientmachine=localhost
 clientmachinematch=0
 fsplevel=0
 fsplevelrule=2
@@ -157,7 +147,6 @@ wmclassmatch=1
 
 [8]
 Description=Application settings for terminator
-clientmachine=localhost
 clientmachinematch=0
 noborder=true
 noborderrule=3
@@ -183,7 +172,7 @@ wmclassmatch=1
 XftAntialias[$d]
 XftHintStyle[$d]
 XftSubPixel[$d]
-count=18
+count=15
 
 [KDE]
 LookAndFeelPackage[$d]
