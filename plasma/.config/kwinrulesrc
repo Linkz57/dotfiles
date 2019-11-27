@@ -1,0 +1,190 @@
+[1]
+Description=Application settings for kwalletd5
+above=true
+aboverule=2
+clientmachine=localhost
+clientmachinematch=0
+wmclass=kwalletd5
+wmclasscomplete=false
+wmclassmatch=1
+
+[11]
+Description=Application settings for wine
+clientmachine=localhost
+clientmachinematch=0
+size=1920,1000
+sizerule=2
+wmclass=powerpnt.exe wine
+wmclasscomplete=true
+wmclassmatch=1
+
+[13]
+Description=Window settings for xfreerdp
+clientmachine=localhost
+clientmachinematch=0
+noborder=true
+noborderrule=2
+title=FreeRDP: 192.168.40.109
+titlematch=1
+types=1
+wmclass=xfreerdp
+wmclasscomplete=false
+wmclassmatch=1
+
+[14]
+Description=Window settings for xfreerdp
+clientmachine=localhost
+clientmachinematch=0
+noborder=true
+noborderrule=2
+title=FreeRDP: 192.168.40.110:7770
+titlematch=1
+types=1
+wmclass=xfreerdp
+wmclasscomplete=false
+wmclassmatch=1
+
+[15]
+Description=Window settings for xfreerdp
+clientmachine=localhost
+clientmachinematch=0
+noborder=true
+noborderrule=2
+title=FreeRDP: 192.168.11.15
+titlematch=1
+types=1
+wmclass=xfreerdp
+wmclasscomplete=false
+wmclassmatch=1
+
+[16]
+Description=Application settings for xfreerdp
+clientmachine=localhost
+clientmachinematch=0
+noborder=true
+noborderrule=2
+screen=1
+screenrule=4
+wmclass=xfreerdp
+wmclasscomplete=false
+wmclassmatch=1
+
+[18]
+Description=Window settings for kontact
+clientmachine=localhost
+clientmachinematch=0
+screen=1
+screenrule=4
+title=Summary - Kontact — Kontact
+titlematch=1
+types=1
+wmclass=kontact
+wmclasscomplete=false
+wmclassmatch=1
+
+[2]
+Description=Application settings for usbguard-applet-qt
+clientmachine=localhost
+clientmachinematch=0
+position=2309,906
+positionrule=1
+wmclass=usbguard-applet-qt
+wmclasscomplete=false
+wmclassmatch=1
+
+[3]
+Description=Window settings for thunderbird
+above=true
+aboverule=2
+clientmachine=localhost
+clientmachinematch=0
+decocolor=KDEPlasma
+decocolorrule=2
+title=Write: Francis_TimeSheet
+titlematch=2
+types=1
+windowrole=msgcompose
+windowrolematch=1
+wmclass=msgcompose thunderbird
+wmclasscomplete=true
+wmclassmatch=1
+
+[4]
+Description=Application settings for plasmawindowed
+clientmachine=localhost
+clientmachinematch=0
+opacityactive=70
+opacityactiverule=2
+opacityinactive=60
+opacityinactiverule=2
+wmclass=plasmawindowed
+wmclasscomplete=false
+wmclassmatch=1
+
+[5]
+Description=Application settings for yakyak
+clientmachine=localhost
+clientmachinematch=0
+minimize=true
+minimizerule=3
+wmclass=yakyak
+wmclasscomplete=false
+wmclassmatch=1
+
+[6]
+Description=Application settings for dolphin
+clientmachine=localhost
+clientmachinematch=0
+opacityactive=70
+opacityactiverule=2
+opacityinactive=60
+opacityinactiverule=2
+wmclass=dolphin
+wmclasscomplete=false
+wmclassmatch=1
+
+[7]
+Description=Application settings for tomboy
+above=true
+aboverule=3
+clientmachine=localhost
+clientmachinematch=0
+fsplevel=0
+fsplevelrule=2
+wmclass=tomboy
+wmclasscomplete=false
+wmclassmatch=1
+
+[8]
+Description=Application settings for terminator
+clientmachine=localhost
+clientmachinematch=0
+noborder=true
+noborderrule=3
+opacityactive=90
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+wmclass=terminator
+wmclasscomplete=false
+wmclassmatch=1
+
+[9]
+Description=Application settings for kdeconnectd
+clientmachine=localhost
+clientmachinematch=0
+fsplevel=0
+fsplevelrule=2
+wmclass=kdeconnectd
+wmclasscomplete=false
+wmclassmatch=1
+
+[General]
+XftAntialias[$d]
+XftHintStyle[$d]
+XftSubPixel[$d]
+count=18
+
+[KDE]
+LookAndFeelPackage[$d]
+SingleClick[$d]
