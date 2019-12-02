@@ -30,7 +30,6 @@ wmclassmatch=1
 
 [12]
 Description=Application settings for krdc
-clientmachinematch=0
 opacityactive=100
 opacityactiverule=2
 opacityinactive=100
@@ -45,7 +44,7 @@ clientmachine=localhost
 clientmachinematch=0
 noborder=true
 noborderrule=2
-screen=0
+screen=1
 screenrule=4
 wmclass=xfreerdp
 wmclasscomplete=false
@@ -53,7 +52,6 @@ wmclassmatch=1
 
 [14]
 Description=Application settings for firefox
-clientmachinematch=0
 screen=0
 screenrule=3
 wmclass=navigator firefox
@@ -138,7 +136,6 @@ wmclassmatch=1
 Description=Application settings for tomboy
 above=true
 aboverule=3
-clientmachinematch=0
 fsplevel=0
 fsplevelrule=2
 wmclass=tomboy
@@ -147,7 +144,6 @@ wmclassmatch=1
 
 [8]
 Description=Application settings for terminator
-clientmachinematch=0
 noborder=true
 noborderrule=3
 opacityactive=90
