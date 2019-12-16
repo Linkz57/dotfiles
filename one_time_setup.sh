@@ -26,3 +26,12 @@ git config --global color.diff.whitespace             "red reverse"
 echo"   mog"
 cd ~/Documents/sjunk/scripts || exit
 pip3 install --user mog
+
+
+## stow - https://www.gnu.org/software/stow/
+## Thanks to XKCD for the following line - xkcd.com/1654
+sudo apt install stow ||
+sudo pacman -Sy stow ||
+sudo pkg install stow ||
+sudo dnf install stow
+printf "Now run the command 'stow' with the argument of whatever subfolder you want in the dotfiles git repo\nassuming the dotfiles git repo is just under ~"
