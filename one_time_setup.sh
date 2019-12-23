@@ -28,6 +28,13 @@ cd ~/Documents/sjunk/scripts || exit
 pip3 install --user mog
 
 
+## speedread - https://github.com/pasky/speedread.git
+mkdir -p ~/Documents/sjunk/programs
+cd ~/Documents/sjunk/programs
+git clone https://github.com/pasky/speedread.git
+ln -s ~/Documents/sjunk/programs/speedread/speedread ~/.local/bin/speedread
+
+
 ## stow - https://www.gnu.org/software/stow/
 ## Thanks to XKCD for the following line - xkcd.com/1654
 sudo apt install stow ||
