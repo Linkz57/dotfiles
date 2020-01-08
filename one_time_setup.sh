@@ -1,12 +1,19 @@
 #!/bin/sh
 
+if [ -f /usr/bin/pip3 ] ; then true ; else echo "first install
+pip3 git curl
+"
+exit 1
+fi
+
 mkdir -p ~/Documents/sjunk/scripts
 cd ~/Documents/sjunk/scripts || exit
 
 
 ## diff-so-fancy - https://github.com/so-fancy/diff-so-fancy
 echo "   diff-so-fancy"
-curl -O ~/Documents/sjunk/scripts/diff-so-fancy "https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy"
+mkdir -p ~/Documents/sjunk/scripts/diff-so-fancy
+curl -O "https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy" > ~/Documents/sjunk/scripts/diff-so-fancy
 chmod 700 ~/Documents/sjunk/scripts/diff-so-fancy
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 git config --global color.ui true
@@ -41,10 +48,10 @@ printf "Now run the command 'stow' with the argument of whatever subfolder you w
 
 
   ####                         #      "
- #       mmm   mmmmm   mmm   mm#mm  mmm    mmmmm   mmm    mmm  
-  #mm   #" "#  # # #  #"  #    #      #    # # #  #"  #  #   " 
-     #  #   #  # # #  #""""    #      #    # # #  #""""   """m 
- #mmm"  "#m#"  # # #  "#mm"    "mm  mm#mm  # # #  "#mm"  "mmm" 
+ #       mmm   mmmmm   mmm   mm#mm  mmm    mmmmm   mmm    mmm
+  #mm   #" "#  # # #  #"  #    #      #    # # #  #"  #  #   "
+     #  #   #  # # #  #""""    #      #    # # #  #""""   """m
+ #mmm"  "#m#"  # # #  "#mm"    "mm  mm#mm  # # #  "#mm"  "mmm"
 ## I don't always want to do the following things when setting up a new computer.
 ## run this one_time_setup script with the argument "all" to also do this extra stuff.
 if [[ "$1" -eq "all" ]] ; then echo "   doing everything" ; else exit 0 ; fi
