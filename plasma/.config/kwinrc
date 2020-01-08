@@ -100,6 +100,9 @@ wobblywindowsEnabled=true
 [Script-forceblur]
 patterns=yakuake\nurxvt\nkeepassxc\ndolphin\nplasmawindowed
 
+[Script-grid-tiling]
+gap=5
+
 [SubSession: 1acf1429-86af-42e0-80ac-7d63c849ef7d]
 active=-1
 activities1=3a665e75-72b2-4f8f-8d85-11d48910c315
@@ -559,7 +562,7 @@ activities4=3a665e75-72b2-4f8f-8d85-11d48910c315
 activities5=
 activities6=69b75789-fe77-4c94-81a6-7c02b599da0d
 activities7=69b75789-fe77-4c94-81a6-7c02b599da0d
-count=3
+count=0
 desktop1=-1
 desktop2=-1
 desktop3=-1
