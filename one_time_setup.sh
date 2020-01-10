@@ -68,3 +68,11 @@ mkdir -p ~/Documents/sjunk/programs
 cd ~/Documents/sjunk/programs
 git clone https://github.com/pasky/speedread.git
 ln -s ~/Documents/sjunk/programs/speedread/speedread ~/.local/bin/speedread
+
+
+## Thunderbird dark mode
+echo "   thunderbird shadowbird"
+thunderbird &&
+cd ~/.thunderbird/*.default &&
+git clone https://github.com/overdodactyl/ShadowBird.git &&
+mv ShadowBird chrome
