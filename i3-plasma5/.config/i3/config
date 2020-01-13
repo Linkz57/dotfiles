@@ -29,10 +29,6 @@
 #################                screen layout               #################
 ##############################################################################
 exec --no-startup-id "sh -c 'sleep 2 ; ~/.config/i3/auto-detect-screen.sh'"
-#exec --no-startup-id "sh -c '/home/tfrancis/dotfiles/i3-plasma5/.config/i3/auto-detect-screen.sh'"
-#exec --no-startup-id bash -c "~/.config/i3/auto-detect-screen.sh"
-#exec ~/.config/i3/auto-detect-screen.sh
-#exec /home/tfrancis/dotfiles/i3-plasma5/.config/i3/auto-detect-screen.sh
 
 
 
