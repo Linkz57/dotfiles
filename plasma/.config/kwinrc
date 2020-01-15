@@ -41,6 +41,9 @@ TabBoxAlternative=false
 [Effect-PresentWindows]
 BorderActivateAll=1,7
 
+[Effect-Slide]
+SlideDocks=true
+
 [Effect-Zoom]
 InitialZoom=1
 
@@ -83,19 +86,26 @@ activatelattelaunchermenuEnabled=false
 blurEnabled=true
 contrastEnabled=false
 coverswitchEnabled=true
+desktopchangeosdEnabled=false
 enforcedecoEnabled=true
 flipswitchEnabled=true
 forceblurEnabled=true
 grid-tilingEnabled=false
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
+kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_squashEnabled=false
 magiclampEnabled=true
 minimizeallEnabled=false
+slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 windowgeometryEnabled=false
 wobblywindowsEnabled=true
+
+[Script-desktopchangeosd]
+PopupHideDelay=1000
+TextOnly=false
 
 [Script-forceblur]
 patterns=yakuake\nurxvt\nkeepassxc\ndolphin\nplasmawindowed
@@ -794,6 +804,7 @@ MaximizeButtonMiddleClickCommand=Maximize (vertical only)
 MaximizeButtonRightClickCommand=Maximize (horizontal only)
 NextFocusPrefersMouse=false
 Placement=Smart
+RollOverDesktops=false
 SeparateScreenFocus=false
 ShadeHover=false
 ShadeHoverInterval=250
