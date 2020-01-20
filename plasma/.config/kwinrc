@@ -817,5 +817,6 @@ BorderSize=Normal
 ButtonsOnLeft=SN
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
+ShowToolTips=true
 library=org.kde.breeze
-theme=
+theme=Breeze

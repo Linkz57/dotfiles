@@ -879,7 +879,7 @@ bar {
     # you will get the standard i3status bar
     # Second one is the standard statusbar with my personal settings
 
-#status_command i3status
+status_command i3status
 #status_command i3status -c ~/.config/i3/i3status.conf
 
 
