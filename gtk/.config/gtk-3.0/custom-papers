@@ -1,0 +1,21 @@
+[Paper0]
+Name=Custom Size 1
+DisplayName=Custom Size 1
+Width=215.89999999999998
+Height=635
+MarginTop=0
+MarginBottom=0
+MarginLeft=0
+MarginRight=0
+Orientation=portrait
+
+[Paper1]
+Name=Custom Size 2
+DisplayName=Custom Size 2
+Width=431.79999999999995
+Height=215.89999999999998
+MarginTop=0
+MarginBottom=0
+MarginLeft=0
+MarginRight=0
+Orientation=portrait
