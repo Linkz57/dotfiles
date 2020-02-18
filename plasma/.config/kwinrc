@@ -92,6 +92,7 @@ flipswitchEnabled=true
 forceblurEnabled=true
 grid-tilingEnabled=false
 highlightwindowEnabled=true
+invertEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_squashEnabled=false
