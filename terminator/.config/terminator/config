@@ -1,5 +1,7 @@
 [global_config]
   tab_position = bottom
+  scroll_tabbar = True
+  homogeneous_tabbar = False
   title_transmit_bg_color = "#0076c9"
   title_receive_bg_color = "#003052"
   title_inactive_fg_color = "#888a85"
@@ -24,6 +26,7 @@
     cursor_color = "#aaaaaa"
     font = Hack 11
     foreground_color = "#ffffff"
+    scrollbar_position = hidden
     scrollback_lines = 15000
     use_system_font = False
     autoclean_groups = False
