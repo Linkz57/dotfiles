@@ -1,10 +1,12 @@
 {
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "workbench.statusBar.visible": true,
 
     "workbench.colorCustomizations": {
-        "statusBar.background": "#2E3134"
+        "statusBar.background": "#2E3134",
+        "statusBar.noFolderBackground": "#2E3134",
+//        "statusBar.debuggingBackground": "#00aeff",
+//        "statusBarItem.remoteBackground": "#0000ff"
     },
     
 
