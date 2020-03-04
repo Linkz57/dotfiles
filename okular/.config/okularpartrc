@@ -13,6 +13,3 @@ UseKTTSD=false
 
 [Main View]
 SplitterSizes=383,1446
-
-[PageView]
-MouseMode=RectSelect
