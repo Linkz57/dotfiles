@@ -583,3 +583,4 @@ exec_always --no-startup-id compton --config ~/.config/i3/compton.conf
 #################                    Dock                    #################
 ##############################################################################
 exec --no-startup-id latte-dock
+exec --no-startup-id usbguard-applet-qt
