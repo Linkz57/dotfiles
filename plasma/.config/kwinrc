@@ -46,6 +46,7 @@ SlideDocks=true
 
 [Effect-Zoom]
 InitialZoom=1
+ZoomFactor=1.5
 
 [Effect-kwin4_effect_translucency]
 Menus=80
