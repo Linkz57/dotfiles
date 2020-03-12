@@ -65,7 +65,7 @@ set $right semicolon
 #####################################################################################################################
 
 exec --no-startup-id xset dpms 600
-bindsym Control+Down exec --no-startup-id i3lock -i '/~/Pictures/bg.png' && xset dpms 1 && sleep 5 && xset dpms 600
+bindsym Control+Down exec --no-startup-id i3lock -i ~/Pictures/bg.png && xset dpms 1 && sleep 5 && xset dpms 600
 
 
 
