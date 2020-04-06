@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Switch Activities
+Exec=~/Documents/sjunk/scripts/change_activities_plasma5.sh
+Icon=~/dotfiles/scripts/Pictures/icons/numix-icon-theme-circle/Numix-Circle/48/apps/AdobeUpdate.svg
+Type=Application
+Categories=Utilities;
+GenericName=Switch Activities
+Terminal=false
