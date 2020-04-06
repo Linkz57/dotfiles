@@ -1,0 +1,3 @@
+[submodule "scripts/Pictures/icons/numix-icon-theme-circle"]
+	path = scripts/Pictures/icons/numix-icon-theme-circle
+	url = https://github.com/numixproject/numix-icon-theme-circle
