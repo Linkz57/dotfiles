@@ -34,6 +34,10 @@ echo "   mog"
 pip3 install --user mog
 
 
+## update git submodules
+git submodule update --init --recursive
+
+
 ## stow - https://www.gnu.org/software/stow/
 ## Thanks to XKCD for the following line - xkcd.com/1654
 echo "   stow"
