@@ -17,3 +17,14 @@ If you change any names, it'll break your symlinks, but <code>stow -R ThingsThat
 
 
 When setting up a new machine or whatever, you can run stow with multiple arguments to stow all the things. Say: <code> cd ~ ; git clone mahDotfiles ; cd dotfiles ; stow i3 bash</code>
+
+
+## Credits
+All of the neat and interesting things in the repo have been written by people more clever than me. Including them as linked submodules should help with proper attribution, but here's another more explicit thanks:
+
+* [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) by Robby Russell
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting
+) by Daniel Shahaf et al
+* [agnoster theme](https://github.com/agnoster/agnoster-zsh-theme) by Isaac Wolkerstorfer
+* [numix circle icons](https://github.com/numixproject/numix-icon-theme-circle) by Joshua H. Fogg
+
