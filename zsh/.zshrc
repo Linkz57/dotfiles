@@ -7,6 +7,6 @@ DEFAULT_USER=`whoami`
 #source $ZSH/oh-my-zsh.sh
 
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/dotfiles/zsh/.zsh/oh-my-zsh/plugins/safe-paste/safe-paste.plugin.zsh
-source ~/dotfiles/zsh/.zsh/oh-my-zsh/plugins/z/z.sh
-source ~/dotfiles/zsh/.zsh/themes/agnoster-minor_edits_by_linkz57.zsh-theme
+source ~/.zsh/oh-my-zsh/plugins/safe-paste/safe-paste.plugin.zsh
+source ~/.zsh/oh-my-zsh/plugins/z/z.sh
+source ~/.zsh/themes/agnoster-minor_edits_by_linkz57.zsh-theme
