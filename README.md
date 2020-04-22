@@ -11,6 +11,7 @@ To be used with [GNU stow](http://brandon.invergo.net/news/2012-05-26-using-gnu-
 https://www.youtube.com/watch?v=TG_R7lpR2zU
 
 Maybe there's a way for stow to create the folder structure in ~/dotfiles and move the file there and make a symlink back automatically? I haven't found it, but I know standard shell script can do that, and Stow is made of a lot of Perl so presumably it has that power.
+Maybe --adopt is that?
 
 
 If you change any names, it'll break your symlinks, but <code>stow -R ThingsThatMakeYourGoBleh</code> will re-stow them, recreating the symlinks to your newly named ~/Documents/dotfiles or whatever.
